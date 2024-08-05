@@ -5,4 +5,4 @@ age = int(input("Enter the age:"))
 if age>17:
 	print("You're a adult")
 else:
-	print("Not")
+	print(f"Not you need to wait {18-age}")
